@@ -5,7 +5,7 @@ import axios from "axios";
 import "./Style.css";
 
 const MainPage = () => {
-  const { authData, setAuthData } = useStore();
+  const { setAuthData } = useStore();
   const [userList, setUserList] = useState([]);
   const [reload, setReload] = useState(false);
 
